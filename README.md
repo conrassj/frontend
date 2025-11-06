@@ -1,13 +1,11 @@
-# Hospedín (React + Vite + TS)
-
-## Requisitos
-- Node 18+
-
 ## Instalar y correr
 ```bash
 npm i
-npm run dev
-```
+# si falta algo, instalar:
+npm i @react-navigation/native @react-navigation/native-stack
+npm i react-native-screens react-native-safe-area-context
+npm i @react-native-async-storage/async-storage
+Si falla algo probar agregar:
+npm i react-native-web react-dom
 
-Abrí la URL que muestra Vite. Flujo:
-- /login → /roles → Huésped (tabs) o Anfitrión (CRUD con imágenes y localStorage).
+```
